@@ -4,4 +4,15 @@
     content: ""; /* make canvas visible at all times */
     background-color: #505050;
     margin: 0 auto;
-  }
+}
+
+.user {
+    position: relative;
+    top: calc(10 * 32px); /* position player in center of canvas */
+    left: calc(17 * 32px); /* position player in center of canvas */
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #FFF;
+    content: "";
+}
