@@ -1,0 +1,7 @@
+#canvas {
+    height: calc(20*32px);
+    width: calc(35*32px);
+    content: ""; /* make canvas visible at all times */
+    background-color: #505050;
+    margin: 0 auto;
+  }
