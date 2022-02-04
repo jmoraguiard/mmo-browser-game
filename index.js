@@ -4,9 +4,7 @@ const server = require('http').createServer(app);
 const path = require('path');
 const io = require('socket.io')(server);
 
-app.use(
-  express.static( path.join(__dirname, '/static') )
-);
+app.use(express.static(path.join(__dirname, '/static')));
 
 io.on('connection', socket => {
   console.log('Some client connected')
